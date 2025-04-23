@@ -4,13 +4,13 @@ import html2canvas from "html2canvas";
 import jsPDF from "jspdf";
 
 const SVGTileApp = () => {
-    const [copies, setCopies] = useState(16);
+    const [copies, setCopies] = useState(4);
     const [rotation, setRotation] = useState(306);
-    const [scale, setScale] = useState(0.06);
-    const [rows, setRows] = useState(16);
+    const [scale, setScale] = useState(0.17);
+    const [rows, setRows] = useState(4);
     const [offset, setOffset] = useState(6);
-    const [spacingFactor, setSpacingFactor] = useState(0.49);
-    const [verticalSpacingFactor, setVerticalSpacingFactor] = useState(0.40);
+    const [spacingFactor, setSpacingFactor] = useState(0.89);
+    const [verticalSpacingFactor, setVerticalSpacingFactor] = useState(0.97);
     const [svgContent, setSvgContent] = useState(null);
     const svgContainerRef = useRef(null);
     const canvasRef = useRef(null);
