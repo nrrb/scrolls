@@ -1,4 +1,5 @@
 {
+  "homepage": "https://nrrb.github.io/scrolls",
   "name": "scrolls",
   "version": "0.1.0",
   "private": true,
@@ -19,6 +20,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "build:docs": "BUILD_PATH=./docs react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
