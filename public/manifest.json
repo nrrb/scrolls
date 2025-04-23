@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Scrolls",
+  "name": "Scrolls: Tiling SVG graphics for wallpaper/tattoo design",
   "icons": [
     {
       "src": "favicon.ico",
