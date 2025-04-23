@@ -1,6 +1,5 @@
 import React, { useState, useEffect, useRef } from "react";
 import { SVG } from "@svgdotjs/svg.js";
-import { motion } from "framer-motion";
 import html2canvas from "html2canvas";
 import jsPDF from "jspdf";
 
@@ -18,7 +17,7 @@ const SVGTileApp = () => {
 
     useEffect(() => {
         // Load default unicorn.svg on first render
-        fetch("/unicorn.svg")
+        fetch("./unicorn.svg")
             .then(response => response.text())
             .then(setSvgContent)
             .catch(error => console.error("Error loading default SVG:", error));
